@@ -101,6 +101,14 @@ Below are the steps involved in the process:
 * Publish the pipeline in Python SDK
 * Consume the pipeline in Python SDK
 
+#### Create a pipeline
+The pipeline is created in **Python** in a **Jupyter Notebook**.
+
+![](./Media/Pipeline_Created.png)
+
+#### Bankmarketing Dataset with AutoML module
+
+![](
 
 
 ## Screen Recording
