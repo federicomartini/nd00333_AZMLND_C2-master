@@ -22,6 +22,8 @@ The **Dataset** contains data about a **Bank Marketing** campaign, and the **goa
 ## Architectural Diagram
 *TODO*: Provide an architectual diagram of the project and give an introduction of each step.
 
+![](./Media/XItC0J2oMS.png)
+
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
 
