@@ -128,9 +128,6 @@ The pipeline is created in **Python** in a **Jupyter Notebook**.
 ![](./Media/Pipeline_MLStudio_Scheduled_Run.png)
 
 
-
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+YouTube: [https://youtu.be/WtiYfHyk6nI](https://youtu.be/WtiYfHyk6nI)
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
