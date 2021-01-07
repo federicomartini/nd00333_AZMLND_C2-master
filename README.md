@@ -108,7 +108,25 @@ The pipeline is created in **Python** in a **Jupyter Notebook**.
 
 #### Bankmarketing Dataset with AutoML module
 
-![](
+![](./Media/Pipeline_Dataset.png)
+
+#### “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE
+
+![](./Media/Published_Pipeline_Overview.png)
+
+#### “Use RunDetails Widget” with the step runs
+
+![](./Media/Use_RunDetails_Widget_Runs.png)
+
+#### ML studio showing the pipeline endpoint as Active
+
+![](./Media/Published_Pipeline_Overview.png)
+![](./Media/Pipeline_Endpoint.png)
+
+#### ML studio showing the scheduled run
+
+![](./Media/Pipeline_MLStudio_Scheduled_Run.png)
+
 
 
 ## Screen Recording
