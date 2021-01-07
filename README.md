@@ -123,5 +123,3 @@ The pipeline is created in **Python** in a **Jupyter Notebook**.
 ## Screen Recording
 YouTube: [https://youtu.be/WtiYfHyk6nI](https://youtu.be/WtiYfHyk6nI)
 
-The video is also available in this repository, in the **Media** folder.
-
