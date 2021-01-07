@@ -62,6 +62,7 @@ The **experiment** found a **Best Model** after completion, and it can be found 
 
 ![](./Media/Models_Completed.png)
 ![](./Media/Best_Model.png)
+![](./Media/Best_Model_Details.png)
 
 #### Deploy model and enable the Application Insights
 The **Best Model** found with the experiment is deployed to be able to interact with the **HTTP API** service and with the **Model** itself with **POST** requests, and the **Application Insights** has been enabled using the **logs.py** script.
