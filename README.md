@@ -123,3 +123,9 @@ The pipeline is created in **Python** in a **Jupyter Notebook**.
 ## Screen Recording
 YouTube: [https://youtu.be/WtiYfHyk6nI](https://youtu.be/WtiYfHyk6nI)
 
+## Possible Future Improvements
+Future improvements can be done by:
+* Training the **Model** with a larger dataset by collecting more data from the **Bank Marketing** campaign
+* Working more on the **Data Preparation** and integrate features used for this project with other features perhaps calculated by aggregating data
+* Setting the `enable_early_stopping` to `false` to see if it helps to improve the score
+* Setting the `featurization` parameter to [FeaturizationConfig](https://docs.microsoft.com/en-us/python/api/azureml-automl-core/azureml.automl.core.featurization.featurizationconfig.featurizationconfig?view=azure-ml-py) to define our customized feature engineering configuration
