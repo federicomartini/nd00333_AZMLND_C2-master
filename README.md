@@ -121,7 +121,7 @@ The pipeline is created in **Python** in a **Jupyter Notebook**.
 
 
 ## Screen Recording
-YouTube: [https://youtu.be/WtiYfHyk6nI](https://youtu.be/WtiYfHyk6nI)
+YouTube: [https://youtu.be/ypHial41bQg](https://youtu.be/ypHial41bQg)
 
 ## Possible Future Improvements
 Future improvements can be done by:
