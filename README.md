@@ -35,14 +35,20 @@ The first thing I did was to create a **Dataset** in **Azure** to hold the data 
 
 Below are the steps involved in the process:
 
-* Create a New Automated ML run
 * Select and upload the Dataset
+* Create a New Automated ML run
 * Configure a new compute cluster using a **Standard_DS12_V2** with 1 as the minimum number of nodes
 * Run the experiment using **Classification**, ensuring the **Explain Best Model** is checked
 * Deploy the **Best Model** found by the **Automated ML** experiment using an **ACI (Azure Container Instance)**
 * Enable the **Application Insights** to enable logging
 * Interact with the **Swagger** instance runnin the documentation for the **HTTP API** of the model
 * Consume the model
+
+### Description
+
+#### Select and upload the Dataset
+Register the dataset with data from the URL: [https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
+![](./Media/Registered_Datasets.png)
 
 ## Key Steps - Pipeline
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
