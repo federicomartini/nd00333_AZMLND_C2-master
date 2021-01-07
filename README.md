@@ -85,6 +85,10 @@ Below is the image that shows the **Application Insight** is enabled.
 * GET
 ![](./Media/Swagger_GET.png)
 
+#### Consume the model Endpoint
+I've used the **endpoint.py** script to interact with the **endpoint**. The **script** sends a post request and receives a response in **JSON Format** that is displayed below.
+
+![](./Media/Endpoint.png)
 
 ## Key Steps - Pipeline
 *TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
@@ -96,10 +100,7 @@ Below are the steps involved in the process:
 * Publish the pipeline in Python SDK
 * Consume the pipeline in Python SDK
 
-#### Consume the model Endpoint
-I've used the **endpoint.py** script to interact with the **endpoint**. The **script** sends a post request and receives a response in **JSON Format** that is displayed below.
 
-![](.(Media/Endpoint.png)
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
