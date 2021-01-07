@@ -20,14 +20,41 @@ The **Dataset** contains data about a **Bank Marketing** campaign, and the **goa
 
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step.
+For this project, I went through two methods to create and deploy a **Machine Learning** model:
+
+* Using the **Azure Machine Learning AutoML UI**
+* Using a **Jupyter Notebook** to create a **Pipeline** with **AutoMLStep**, and then deploy and consume it
 
 ![](./Media/XItC0J2oMS.png)
 
-## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
+The first thing I did was to create a **Dataset** in **Azure** to hold the data to train the **Models**. The first path started with training a **Model** with **AutoML UI**. Once the **AutoML** completed, I've deployed the **Best Model** in an **ACI (Azure Container Instance)** enabling the **Application Insights** for logging. Next, I've checked that the **Swagger** service worked as intended by providing the **documentation** to interact with the **endpoint**. Lastly, I've consumed the **Endpoint** to check the answer. As for the **Pipeline**, I've taken advantage of a **Python 3** environment to run the code in a **Jupyter Notebook** to create a pipeline with **AutoMLStep**. After creating the **Pipeline**, I've deployed it and consumed it to verify it replied as intended.
 
+## Key Steps - Automated ML
+*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+
+Below are the steps involved in the process:
+
+* Create a New Automated ML run
+* Select and upload the Dataset
+* Configure a new compute cluster using a **Standard_DS12_V2** with 1 as the minimum number of nodes
+* Run the experiment using **Classification**, ensuring the **Explain Best Model** is checked
+* Deploy the **Best Model** found by the **Automated ML** experiment using an **ACI (Azure Container Instance)**
+* Enable the **Application Insights** to enable logging
+* Interact with the **Swagger** instance runnin the documentation for the **HTTP API** of the model
+* Consume the model
+
+## Key Steps - Pipeline
+*TODO*: Write a short discription of the key steps. Remeber to include all the screencasts required to demonstrate key steps. 
+*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+
+Below are the steps involved in the process:
+
+* Create a pipeline in Python SDK
+* Publish the pipeline in Python SDK
+* Consume the pipeline in Python SDK
+
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
